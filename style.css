@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&family=Mochiy+Pop+P+One&family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&family=Mochiy+Pop+P+One&family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Karla:wght@200&family=Mochiy+Pop+P+One&family=Supermercado+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url("img/nw.jpg");
+    background-size: cover;
+    height: 80vh;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    border: black solid;
+}
+#logo{
+   color: black; 
+    height: 70px;
+    border: black 2px solid;
+    position: absolute;
+left: 8.5vw;
+top :0%;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+    flex-direction: row-reverse;
+}
+
+
+#insta{
+    width: 15px;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 2px;
+    padding: 2px;
+    font-weight: bolder;
+    color: white;
+}
+#order{
+    
+border-radius: 32px;
+
+background-color: black;
+color: white;
+}
+.order
+{
+    border-radius: 32px;
+
+    background-color: white;
+    color: black;
+    margin: auto; 
+}
+.con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    font-family: 'Supermercado One', cursive;
+    display: flex;
+    justify-content: space-between;
+    background-color:aquamarine;
+    border: solid black;
+background-image: url("img/menu.jpg");    
+background-size: cover;
+padding: 0 23px;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Supermercado One', cursive;
+background-image: url("img/menu.jpg");
+background-size: cover;
+    
+    
+
+}
+#change{
+    opacity: 0;
+    transition: opacity .1s ease-in-out;
+}

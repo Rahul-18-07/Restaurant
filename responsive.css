@@ -1,0 +1,42 @@
+@media only screen and (max-width:750px) {
+    
+    header{
+        background-image: url("img/newback.jpg");
+        color: white;
+        background-size: cover;
+    }
+    .menu{
+    overflow: scroll;
+    }
+    .order
+{
+    border: white 1px;
+
+    background-color: black;
+    color: white;
+    margin: auto; }
+
+header nav{
+    border: white 2px solid;}
+    h1{
+    font-size:3rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 13px;
+    }
+    #logo{
+        color: black; 
+         height: 70px;
+         border: black 2px solid;
+         position: absolute;
+     left: 0vw;
+     top : 6vh;
+     
+     }
+}
